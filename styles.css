@@ -47,16 +47,19 @@ a:hover {
    HEADER
 =========================== */
 .site-header {
-  padding: 22px 0;
+  width: 100%;
+  padding: 16px 40px;
   border-bottom: 1px solid #e8eaf0;
-  background-color: #ffffff;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
 }
 
-.wordmark {
+.logo {
   font-size: 0.875rem;
   font-weight: 600;
-  color: #374151;
-  letter-spacing: 0.1px;
+  color: #6b7280;
+  letter-spacing: 0.2px;
 }
 
 /* ===========================

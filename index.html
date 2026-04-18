@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Build Better Websites Faster</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <h1>Build Better Websites Faster</h1>
+      <p class="subheadline">Get prompts, templates, and tools to build websites and get clients.</p>
+      <a href="#email-form" class="btn btn-primary">Send Me the Free Guide</a>
+    </div>
+  </section>
+
+  <!-- FREE BONUS -->
+  <section class="bonus">
+    <div class="container">
+      <div class="bonus-card">
+        <span class="label">Free Bonus</span>
+        <h2>5 Prompts to Build Better Websites with Claude</h2>
+        <p>Use these exact prompts to go from blank screen to published website — no experience needed.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EMAIL FORM -->
+  <section class="form-section" id="email-form">
+    <div class="container">
+      <h2>Get Your Free Guide</h2>
+      <p>Enter your info below and I'll send it right over.</p>
+      <form id="signup-form" novalidate>
+        <div class="form-group">
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" name="first-name" placeholder="Jane" />
+          <span class="error-msg" id="name-error">Please enter your first name.</span>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="jane@example.com" />
+          <span class="error-msg" id="email-error">Please enter a valid email address.</span>
+        </div>
+        <button type="submit" class="btn btn-primary full-width">Send It To Me</button>
+      </form>
+      <div class="success-message" id="success-message">
+        <span class="checkmark">&#10003;</span>
+        <p>You're in! Check your inbox for the free guide.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE SECTION -->
+  <section class="service">
+    <div class="container">
+      <h2>Need a Website Built for You?</h2>
+      <p>Skip the learning curve. I'll build it fast, clean, and ready to launch.</p>
+      <a href="mailto:jerome@example.com" class="btn btn-outline">Work With Me</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>Jerome K. Wright</p>
+      <p class="copy">&copy; <span id="year"></span> Jerome K. Wright. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

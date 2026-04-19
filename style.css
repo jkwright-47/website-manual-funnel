@@ -229,11 +229,25 @@ a:hover {
 }
 
 .proof {
-  margin-top: 12px;
-  font-size: 0.8125rem;
-  color: #9ca3af;
   text-align: center;
+  padding: 40px 24px;
+  background: #f5f7fb;
+  border-top: 1px solid #e8eaf0;
+  border-bottom: 1px solid #e8eaf0;
+}
+
+.proof p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111111;
   font-style: italic;
+  margin: 0 0 10px;
+}
+
+.proof span {
+  font-size: 14px;
+  color: #6b7280;
+  font-weight: 500;
 }
 
 .who-for {

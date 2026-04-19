@@ -252,14 +252,14 @@ a:hover {
 
 .who-for {
   list-style: none;
-  margin: 0 0 32px;
+  margin: 0 0 28px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 6px;
 }
 
 .who-for li {
-  font-size: 0.9375rem;
+  font-size: 0.9rem;
   color: #374151;
   padding-left: 20px;
   position: relative;
@@ -273,8 +273,15 @@ a:hover {
   font-weight: 600;
 }
 
+.instant-access {
+  margin-top: 10px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: #6b7280;
+}
+
 .guarantee {
-  margin-top: 12px;
+  margin-top: 10px;
   font-size: 0.8125rem;
   color: #15803d;
   font-weight: 500;
@@ -282,7 +289,7 @@ a:hover {
 
 .secondary-cta {
   display: inline-block;
-  margin-top: 16px;
+  margin-top: 14px;
   font-size: 0.875rem;
   font-weight: 500;
   color: #1E3A8A;
@@ -294,10 +301,14 @@ a:hover {
   color: #162f72;
 }
 
-.trust-line {
-  margin-top: 14px;
+.trust-tagline {
+  margin-top: 8px;
   font-size: 0.8125rem;
   color: #9ca3af;
+}
+
+.repeat-cta {
+  margin-top: 24px;
 }
 
 .hero-value {

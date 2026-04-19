@@ -1,0 +1,11 @@
+# ── PAID PRODUCT FILES — never push to GitHub ──────────────────────────────
+# These are delivered through Gumroad only.
+# DO NOT commit or expose these files publicly.
+BFS_manual.pdf
+BFS_manual.docx
+manual.pdf
+
+# ── Source / build files ────────────────────────────────────────────────────
+build_pdf.py
+manual.md
+.DS_Store

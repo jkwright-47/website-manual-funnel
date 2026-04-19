@@ -55,10 +55,23 @@ a:hover {
   align-items: center;
 }
 
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .site-logo {
-  height: 48px;
+  height: 40px;
   width: auto;
   display: block;
+}
+
+.brand-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1E3A8A;
+  letter-spacing: -0.3px;
 }
 
 .logo {
